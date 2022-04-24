@@ -34,7 +34,7 @@ p{
 /* CLASS SELECTORS */
 .main_container{
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
 }
 
 .web{
@@ -130,8 +130,8 @@ p{
 .edu{
   text-align: center;
   padding-top: 10px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 190px;
+  padding-right: 190px;
   background-color: #EBFFFA;
   color: #11999E;
 }
