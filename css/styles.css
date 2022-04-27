@@ -1,7 +1,12 @@
 /* TAG SELECTORS */
 body{
+  height: 100%;
   margin: 0;
   background-color: #E3FDFD;
+}
+
+html{
+  height: 100%;
 }
 
 input{
@@ -33,6 +38,7 @@ p{
 }
 /* CLASS SELECTORS */
 .main_container{
+  height: 100%;
   text-align: center;
   padding-bottom: 70px;
 }
