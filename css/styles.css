@@ -1,12 +1,11 @@
 /* TAG SELECTORS */
+html{
+  height: 100%;
+}
 body{
   height: 100%;
   margin: 0;
   background-color: #E3FDFD;
-}
-
-html{
-  height: 100%;
 }
 
 input{
@@ -40,7 +39,6 @@ p{
 .main_container{
   height: 100%;
   text-align: center;
-  padding-bottom: 70px;
 }
 
 .web{
@@ -65,11 +63,16 @@ p{
 .about{
   color: #11999E;
   display: inline-block;
+  margin: 10px;
   padding: 10px;
   text-decoration: none;
 }
 
 .drop{
+  display: inline-block;
+}
+
+.drop1{
   display: inline-block;
 }
 
@@ -88,6 +91,17 @@ p{
 }
 
 .dropdown{
+  background-color: #E3FDFD;
+  color: #11999E;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  text-align: left;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown1{
   background-color: #E3FDFD;
   color: #11999E;
   display: none;
@@ -136,8 +150,8 @@ p{
 .edu{
   text-align: center;
   padding-top: 10px;
-  padding-left: 190px;
-  padding-right: 190px;
+  padding-left: 200px;
+  padding-right: 200px;
   background-color: #EBFFFA;
   color: #11999E;
 }
@@ -252,6 +266,10 @@ p{
 .drpdwn:hover{
   background-color: #11999E;
   color: #E3FDFD;
+}
+
+.drop1:hover .dropdown1{
+  display: block;
 }
 
 .drop:hover .dropdown{
