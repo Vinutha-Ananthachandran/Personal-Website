@@ -27,7 +27,7 @@ hr{
   width: 10%;
 }
 
-a{
+a, button{
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -240,6 +240,57 @@ p{
   color: #11999E;
 }
 
+.collapsible {
+  background-color: #EBFFFA;
+  color: #11999E;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #E3FDFD;
+}
+
+.awdbutton{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav1{
+  position: relative;
+  left: 700px;
+}
+
+.nav2{
+  position: relative;
+  left: 630px;
+}
+
+.nav3{
+  position: relative;
+  left: 680px;
+}
+
+.nav4{
+  position: relative;
+  left: 684px;
+}
+
+.awards{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hid{
+  display: none;
+}
+
 /* ID SELECTORS */
 #main_h1{
   color: #11999E;
@@ -280,4 +331,17 @@ p{
 .a1:hover{
   background-color: #11999E;
   color: #E3FDFD;
+}
+
+.active, .collapsible:hover {
+  background-color: #11999E;
+  color: #E3FDFD;
+}
+
+.active .hid, .collapsible:active .hid{
+  display: inline-block;
+}
+
+.active .disp, .collapsible:active .disp{
+  display: none;
 }
