@@ -291,6 +291,15 @@ p{
   display: none;
 }
 
+.wrk{
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.h2pad{
+  padding-top: 0;
+}
+
 /* ID SELECTORS */
 #main_h1{
   color: #11999E;
