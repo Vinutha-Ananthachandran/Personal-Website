@@ -201,7 +201,10 @@ p{
   padding: 10px;
   height: 30px;
   width: 30px;
-  margin: 0 auto 15px auto;
+}
+
+.social{
+  margin: auto;
 }
 
 .ul1{
