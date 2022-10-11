@@ -360,3 +360,8 @@ p{
 .active .disp, .collapsible:active .disp{
   display: none;
 }
+
+.wie{
+  height: 100px;
+  width: 100px;
+}
