@@ -35,10 +35,12 @@ p{
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
+
 /* CLASS SELECTORS */
 .main_container{
   height: 100%;
   text-align: center;
+/*  background-image: url('../Images/vector.jpg'); */
 }
 
 .web{
